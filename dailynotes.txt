@@ -17,4 +17,4 @@ def hello():
 jp.justpy()
 //setting Routes
 jp.Route("/",wp)
-or jp.setRoute("/")
+or @jp.setRoute("/")
