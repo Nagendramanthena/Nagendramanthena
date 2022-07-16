@@ -1,5 +1,6 @@
 print("hello")
-greetings = ["hello","howdy"]
-
+from translate import Translator
+greetings = ["hello","goodmorning"]
+trans = Translator(to_lang="telugu")
 for g in greetings:
-    print(g.title());
+    print(trans.translate(g));
