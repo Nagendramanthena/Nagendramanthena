@@ -1,0 +1,5 @@
+translator module in python
+import Translator from transalate
+transla = Translator(to_lang="pt")
+
+print(transla.translate())
