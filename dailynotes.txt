@@ -3,3 +3,18 @@ import Translator from transalate
 transla = Translator(to_lang="pt")
 
 print(transla.translate())
+
+
+// justpy ///
+
+import justpy as jp
+
+wp = jp.Webpage()
+
+def hello():
+  jp.Div(a=wp,text="what")
+  return wp
+jp.justpy()
+//setting Routes
+jp.Route("/",wp)
+or @jp.setRoute("/")
